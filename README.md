@@ -53,13 +53,13 @@ Le projet intègre un front-end dynamique avec Vue.js (Inertia), un back-end rob
 1. Cloner le projet
 
 ```bash
-git clone https://github.com/Penantchionron/smart-learn-stream.git
+git clone https://github.com/Penantchionron/smart-learn-stream-production.git
 ```
 
 2. Installation
 
 ```bash
-cd smart-learn-stream
+cd smart-learn-stream-production
 composer install
 npm install 
 cp .env.example .env
