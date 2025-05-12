@@ -76,7 +76,8 @@ DB_DATABASE=smartlearn
 DB_USERNAME=your_user // root si c'est MySQL
 DB_PASSWORD=your_password // pas de mot de pas si c'est MySQL
 ```
-![Configuration](https://github.com/user-attachments/assets/92df464e-637a-4c55-b59b-8116ed1b8215)
+![Configuration](https://github.com/user-attachments/assets/c0fdd035-09c4-4acc-9132-c96bc1af5eaa)
+
 
 4. Démmarer le serveur et Exécuter les migrations et les seeders
 
