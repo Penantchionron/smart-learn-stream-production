@@ -94,7 +94,8 @@ npm run dev
 npm run build 
 php artisan serve
 ```
-![image](https://github.com/user-attachments/assets/0b713960-2c97-4ea0-9689-455aa59994e4)
+![Capture d'écran 2025-05-12 091730](https://github.com/user-attachments/assets/6b196fdf-ce6b-46e8-8850-bbf94a7a2c65)
+
 
 5. tapper dans le navigateur : http://127.0.0.1:8000
 
