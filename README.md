@@ -66,7 +66,8 @@ cp .env.example .env
 php artisan key:generate
 code .
 ```
-![Installation](https://github.com/user-attachments/assets/fac2abac-5395-44dc-9c85-60d9f4023a2c)
+![Installation](https://github.com/user-attachments/assets/53752a44-1e80-4158-a66f-a43c5810c52d)
+
 
 3. Créer la base de données et configurer `.env`
 
