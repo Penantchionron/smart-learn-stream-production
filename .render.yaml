@@ -1,0 +1,35 @@
+services:
+  - type: web
+    name: smart-learn-stream
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: APP_DEBUG
+        value: false
+      - key: APP_KEY
+        generateValue: true
+      - key: DB_CONNECTION
+        value: pgsql
+      - key: DB_HOST
+        fromDatabase:
+          name: smart_learn_stream
+          property: host
+      - key: DB_PORT
+        fromDatabase:
+          name: smart_learn_stream
+          property: port
+      - key: DB_DATABASE
+        fromDatabase:
+          name: smart_learn_stream
+          property: database
+      - key: DB_USERNAME
+        fromDatabase:
+          name: smart_learn_stream
+          property: user
+      - key: DB_PASSWORD
+        fromDatabase:
+          name: smart_learn_stream
+          property: password
